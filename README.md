@@ -37,21 +37,17 @@ Each problem was tackled collaboratively to reflect both individual and team lea
 
 | Student ID | Full Name          |
 |------------|--------------------|
-| 20223214   | Ishimwe Egîdë      |
-| [Add ID]   | [Full Name]        |
-| [Add ID]   | [Full Name]        |
-| [Add ID]   | [Full Name]        |
+| 26661   | Ishimwe Egîdë      |
+| 2481  | Kaliza Natasha Peace |
+| 25618   | Ishimwe Divin Elvis  |
+| 26594   | Akanyana Lesly    |
+| 27020 | Nshimyumuremyi Elias    |
+| 2581   | Munezero Irakoze Luccin |
 
-> ℹ️ Please update the missing group members before final submission.
+> ℹ️ 
 
 ---
 
 ## ⚙️ How to Run
 
-To open and test the notebooks:
 
-```bash
-1. Clone this repository
-2. Open Jupyter Notebook
-3. Navigate to the quiz notebook (.ipynb)
-4. Run each cell step-by-step
