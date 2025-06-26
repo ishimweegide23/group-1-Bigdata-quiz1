@@ -48,6 +48,62 @@ Each problem was tackled collaboratively to reflect both individual and team lea
 
 ---
 
-## ⚙️ How to Run
+## 🧠 Task Documentation
+
+### 🧮 Question 1: Age Calculator using a Function
+
+#### 📌 Objective
+Build a function that calculates a user’s age based on the current year (`2025`) and their input birth year.
+
+## 💻 Code
+```python
+def calculate_age(birth_year):
+    current_year = 2025
+    return current_year - birth_year
+
+def get_user_input():
+    print("🎉 Welcome to the Age Calculator! 🎉")
+    while True:
+        name = input("📝 Enter your name: ").strip()
+        if not name.isalpha():
+            print("❌ Name must contain letters only.")
+        else:
+            break
+
+    while True:
+        year_input = input("📅 Enter your year of birth: ").strip()
+        if not year_input.isdigit():
+            print("❌ Please enter a number.")
+            continue
+
+        birth_year = int(year_input)
+        if birth_year < 1900 or birth_year > 2025:
+            print("⚠️ Enter a year between 1900 and 2025.")
+        else:
+            break
+
+    return name, birth_year
+
+name, birth_year = get_user_input()
+age = calculate_age(birth_year)
+print("\n✅ Thank you,", name + "!")
+print("🎂 You are", age, "years old.")
+```
+
+### 🖥️ Output Example
+```plaintext
+
+🎉 Welcome to the Age Calculator! 🎉
+📝 Enter your name: Ishimwe
+📅 Enter your year of birth: 2020
+
+✅ Thank you, Ishimwe!
+🎂 You are 5 years old.
+```
+
+### 📸 Screenshot
+![python q1](https://github.com/user-attachments/assets/23d32a37-8019-403d-aa2f-99b11060a944)
+![python q1](https://github.com/user-attachments/assets/23d32a37-8019-403d-aa2f-99b11060a944)
+
 
 
