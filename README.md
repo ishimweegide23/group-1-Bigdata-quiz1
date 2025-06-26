@@ -38,7 +38,7 @@ Each problem was tackled collaboratively to reflect both individual and team lea
 | Student ID | Full Name          |
 |------------|--------------------|
 | 26661   | Ishimwe Egîdë      |
-| 2481  | Kaliza Natasha Peace |
+| 24810  | Kaliza Natasha Peace |
 | 25618   | Ishimwe Divin Elvis  |
 | 26594   | Akanyana Lesly    |
 | 27020 | Nshimyumuremyi Elias    |
