@@ -47,6 +47,7 @@ Each problem was tackled collaboratively to reflect both individual and team lea
 > ℹ️ 
 
 ---
+![WhatsApp Image 2025-06-26 at 11 21 52_d3203886](https://github.com/user-attachments/assets/1df1bfe8-0771-446e-b35a-3cfac02a642a)
 
 ## 🧠 Task Documentation
 
