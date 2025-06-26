@@ -101,9 +101,109 @@ print("🎂 You are", age, "years old.")
 🎂 You are 5 years old.
 ```
 
-### 📸 Screenshot
+# 📸 Screenshot
 ![python q1](https://github.com/user-attachments/assets/23d32a37-8019-403d-aa2f-99b11060a944)
-![python q1](https://github.com/user-attachments/assets/23d32a37-8019-403d-aa2f-99b11060a944)
+
+## 🔄 Question 2: Palindrome Checker
+
+### 📌 Objective
+
+Build a program that checks if the input word or sentence is a palindrome — reads the same forward and backward.
+
+### 💻 Code
+```python
+
+import re
+
+def is_palindrome(text):
+    cleaned = text.replace(" ", "").lower()
+    return cleaned == cleaned[::-1]
+
+def get_valid_input():
+    print("\n🔄 Palindrome Checker 🔄")
+    while True:
+        user_input = input("✏️ Enter a word or sentence: ").strip()
+
+        if not user_input:
+            print("⚠️ Cannot be empty.")
+            continue
+        if len(user_input.replace(" ", "")) < 2:
+            print("⚠️ At least two characters required.")
+            continue
+        if user_input.isnumeric():
+            print("🚫 Numbers only are not allowed.")
+            continue
+        if not re.match(r'^[A-Za-z ]+$', user_input):
+            print("🚫 Use only letters and spaces.")
+            continue
+
+        return user_input
+
+text = get_valid_input()
+if is_palindrome(text):
+    print("✅ This is a palindrome!")
+else:
+    print("❌ This is NOT a palindrome.")
+```
+### 🖥️ Output Example
+```plaintext
+✏️ Enter a word or sentence: A man a plan a canal Panama
+✅ This is a palindrome!
+```
+# 📸 Screenshot 
+![python q2](https://github.com/user-attachments/assets/50c45ffe-9ead-438d-9bbb-8b206879d553)
+
+## 🔤 Question 3: Character Iterator from Two Texts
+
+### 📌 Objective
+
+Take two text inputs, combine them, and display a list of characters from the merged string.
+
+## 💻 Code
+
+```python
+
+def get_text_input(prompt):
+    while True:
+        user_input = input(prompt).strip()
+
+        if not user_input:
+            print("⚠️ Input cannot be empty.")
+            continue
+        if user_input.isspace():
+            print("⚠️ Input cannot be only spaces.")
+            continue
+        if user_input.isdigit():
+            print("🚫 Numbers only are not allowed.")
+            continue
+
+        return user_input
+
+print("\n🔡 Character Iterator 🔡")
+text1 = get_text_input("✏️ Enter the first text: ")
+text2 = get_text_input("✏️ Enter the second text: ")
+
+combined_text = text1 + text2
+character_list = list(combined_text)
+
+print("\n✅ Combined Text:", combined_text)
+print("📃 List of characters:")
+print(character_list)
+```
+## 🖥️ Output Example
+
+```plaintext
+✏️ Enter the first text: Hello
+✏️ Enter the second text: World
+
+✅ Combined Text: HelloWorld
+📃 List of characters:
+['H', 'e', 'l', 'l', 'o', 'W', 'o', 'r', 'l', 'd']
+
+```
+📸 Screenshot
+
+
 
 
 
