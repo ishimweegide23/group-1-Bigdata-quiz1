@@ -42,7 +42,7 @@ Each problem was tackled collaboratively to reflect both individual and team lea
 | 25618   | Ishimwe Divin Elvis  |
 | 26594   | Akanyana Lesly    |
 | 27020 | Nshimyumuremyi Elias    |
-| 2581   | Munezero Irakoze Luccin |
+| 25815   | Munezero Irakoze Luccin |
 
 > ℹ️ 
 
