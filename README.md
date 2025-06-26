@@ -22,7 +22,7 @@ Each problem was tackled collaboratively to reflect both individual and team lea
 
 ## 📁 Quiz Contents
 
-### ✅ Task 1: Age Calculator Using a Function
+### ✅ Task 1: Age calculator using a Function
 > Calculates and displays the user's age based on input and the current year (2025).
 
 ### ✅ Task 2: Palindrome Checker
