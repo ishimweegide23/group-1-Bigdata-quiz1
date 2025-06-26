@@ -204,6 +204,8 @@ print(character_list)
 📸 Screenshot
 
 
+![python q3](https://github.com/user-attachments/assets/6c7d9fac-31bf-45ad-9b8e-d02c97d1f972)
+
 
 
 
