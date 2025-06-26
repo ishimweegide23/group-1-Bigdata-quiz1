@@ -39,9 +39,9 @@ Each problem was tackled collaboratively to reflect both individual and team lea
 |------------|--------------------|
 | 26661   | Ishimwe Egîdë      |
 | 24810  | Kaliza Natasha Peace |
-| 2561   | Ishimwe Divin Elvis  |
-| 2659   | Akanyana Lesly    |
-| 2702 | Nshimyumuremyi Elias    |
+| 25618   | Ishimwe Divin Elvis  |
+| 26594   | Akanyana Lesly    |
+| 27020 | Nshimyumuremyi Elias    |
 | 25815   | Munezero Irakoze Luccin |
 
 > ℹ️ 
