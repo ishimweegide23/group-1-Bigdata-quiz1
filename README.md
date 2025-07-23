@@ -3,7 +3,7 @@
 ### 🏫 Institution: Adventist University of Central Africa (AUCA)  
 ### 👨‍🏫 Instructor: Eric Maniraguha  
 ### 🗓️ Semester: Academic Year 2024–2025, SEM II  
-### 👥 Group: Group 1 (Grp A)
+### 👥 Group: Group 1 (Grp 
 
 ---
 
